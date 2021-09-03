@@ -3,7 +3,8 @@ def main():
     return
     
 def upper():    
-    texte = input("Veuillez entrer la chaine de charactères à modifier : \n")
+    #texte = input("Veuillez entrer la chaine de charactères à modifier : \n")
+    texte = "readme"
     print(texte.upper())
     return
 

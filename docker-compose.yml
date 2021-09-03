@@ -3,6 +3,7 @@ services:
   python:
     build: .
     container_name: py-projet
+    
     restart: unless-stopped  
     # volumes:
     #   - ./src:/var/py-project
